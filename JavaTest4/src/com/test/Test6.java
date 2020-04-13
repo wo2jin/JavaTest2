@@ -18,7 +18,7 @@ class B extends A{
 		this.bValue =100;
 	}
 	public B(int bValue) {
-		super(7);//상위에 오버라이드 된 메소드 public A(int aValue)값에 대값을 대입
+		super(bValue);//상위에 오버라이드 된 메소드 public A(int aValue)값에 대값을 대입
 		this.bValue = bValue;
 		System.out.println("Constructor B"+bValue+","+this.aValue);
 	}

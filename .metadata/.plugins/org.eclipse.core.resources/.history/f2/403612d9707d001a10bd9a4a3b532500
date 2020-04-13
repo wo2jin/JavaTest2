@@ -1,0 +1,47 @@
+package com.test3;
+class School{
+	String name;
+	int age;
+	public School() {
+		
+	}
+	void getInfo(String name, int age) {
+		this.name = name;
+		this.age = age;
+		System.out.println(this.name+","+this.age+"학생입니다.");
+	}
+
+	
+}
+class MiddleSchool extends School{
+	String grade;
+	public MiddleSchool(){
+		
+	}
+	void getInfo(String name, int age,String grade) {
+		super.name = name;
+		super.age = age;
+		this.grade = grade;
+		System.out.println(this.grade+","+super.name+","+super.age+"고등학생입니다.");
+	}
+}
+class highSchool extends MiddleSchool{
+	
+	public highSchool() {
+		
+		
+	
+	}	
+}
+
+public class Student {
+	public static void main(String[] args) {
+		MiddleSchool sc = new MiddleSchool();
+		sc.getInfo("김우진",20,"바보");
+		School sc2 = sc;
+		sc2.getInfo(sc.name,sc.age);
+				
+	
+		
+	}
+}

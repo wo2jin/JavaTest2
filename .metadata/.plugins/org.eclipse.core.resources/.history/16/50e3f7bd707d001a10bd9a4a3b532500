@@ -1,0 +1,28 @@
+package com.test3;
+class School{
+	String name;
+	int age;
+	void getInfo(String name, int age) {
+		this.name = name;
+		this.age = age;
+		System.out.println(name+","+age+"학생입니다.")
+	}
+
+	
+}
+class MiddleSchool extends School{
+	void getInfo(String name, int age) {
+		super(name);
+		super(age)
+		System.out.println(name+","+age+"학생입니다.")
+	}
+}
+class highSchool extends School{
+	
+}
+
+public class Student {
+	public static void main(String[] args) {
+		
+	}
+}
