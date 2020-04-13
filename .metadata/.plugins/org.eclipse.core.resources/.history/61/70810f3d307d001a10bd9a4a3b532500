@@ -1,0 +1,15 @@
+package com.test;
+
+class Student2{
+	String name;
+	public void setName(String nm) {
+		name = nm;
+	}
+}
+
+public class Test5 {
+	public static void main(String[] args) {
+		Student
+	}
+
+}

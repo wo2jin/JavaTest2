@@ -1,0 +1,20 @@
+package com.test;
+
+class A{
+	public A() {
+		System.out.println("Default Constructor A");
+	}
+}
+class B{
+	public B() {
+		System.out.println("Default Constructor B");
+	}
+}
+
+public class Test6 {
+	public static void main(String[] args) {
+		A a = new A();
+		B b = new B();
+	
+	}
+}

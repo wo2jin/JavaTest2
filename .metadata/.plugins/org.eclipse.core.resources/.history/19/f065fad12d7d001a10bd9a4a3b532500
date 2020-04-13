@@ -1,0 +1,19 @@
+package com.test;
+class Student{
+	
+	public void gotoSchool() {
+		System.out.println("Student go to school");
+	}
+}
+
+class MiddleStudent extends Student{
+	
+}
+
+public class Test4 {
+	public static void main(String[] args) {
+		MiddleStudent mstu = new MiddleStudent();
+		mstu.gotoSchool();
+	}
+
+}
