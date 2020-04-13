@@ -1,0 +1,8 @@
+package Test2;
+import defaultpackage.Appc.*;
+public class Test2 {
+	public static void main(String[] args) {
+		
+	}
+
+}

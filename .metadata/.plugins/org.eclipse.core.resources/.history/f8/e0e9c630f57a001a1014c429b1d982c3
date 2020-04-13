@@ -1,0 +1,14 @@
+package animal;
+
+public class Dog {
+	public void makeCat() {
+		zoo.Cat yaong = new zoo.Cat();
+		yaong.makeCat();
+		yaong.Meow();
+	}
+	
+	public static void main(String[] args) {
+		
+	}
+	
+}

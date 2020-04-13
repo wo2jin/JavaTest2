@@ -1,0 +1,21 @@
+
+class A{ 
+	int data =50; //instance variable
+	static int m = 100; // static variable
+	void method() {
+		int n = 90; //local variable
+	}
+}
+public class Test1 {
+	
+	public static void main(String[] args) {
+		System.out.println(A.m);
+		A.m = 200;
+		System.out.println(A.m);
+		String str ="1234";
+		int a =Integer.parseInt(str);
+		Integer a2 =new Integer(a);
+		String str2 = a2.toString();
+	}
+
+}

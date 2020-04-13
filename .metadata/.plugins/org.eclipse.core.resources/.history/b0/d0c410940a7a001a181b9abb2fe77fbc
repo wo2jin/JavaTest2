@@ -1,0 +1,21 @@
+
+public class Test5 {
+	public static void main(String[] args) {
+		int a=1;
+		while (a<10) {
+			System.out.println(a);
+			a++;
+		}
+		
+		a=1;
+		do {
+			System.out.println(a);
+			a++;
+		}
+		while(a<10);
+		System.out.println("for syntax");
+		for(int a2=1;a2<10;a2++) {
+			System.out.println(a2);
+		}
+	}
+}

@@ -1,0 +1,15 @@
+
+public class Test5 {
+	public static void main(String[] args) {
+		int a = Short.MAX_VALUE;
+		System.out.println(a);
+		long l = Long.MAX_VALUE;
+		System.out.println(l);
+		
+		long l2 =a;//a는 int형인데도 더큰 long으로 타입변환 가능
+		System.out.println(l2);
+		
+		short s2 = (short)l2;
+		System.out.println(s2);
+	}
+}

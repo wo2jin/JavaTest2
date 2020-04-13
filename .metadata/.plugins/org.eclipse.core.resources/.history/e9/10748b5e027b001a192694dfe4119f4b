@@ -1,0 +1,6 @@
+package zoo;
+
+public class Animal {
+	public void breath() {
+		System.out.println("Animal Breath");}
+}
