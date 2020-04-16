@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="C:\Test2\Java2ws2(제공파일)"/>
+		<item value="C:\Test2\Java2ws1(제공파일)"/>
 		<item value="C:\Users\kccistc\Desktop\SKILL_JAVA_WORKSHOP1"/>
 		<item value="C:\Test2\JavaTest"/>
 		<item value="C:\Test3\JavaTest"/>

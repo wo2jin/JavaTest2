@@ -9,9 +9,9 @@ class Test{
 	}
 	public Test(String[] stu) {
 		int count =0;
-		for(int i=0;i<10;i++) {
+		for(int i=0;i<10;i++) { // int inx = 0; inx<answer.lengh; inx++
 			if(stu[i] == answer[i]) {
-				count++;
+				count +=1;
 			}
 		}System.out.println("Student["+studentno+"]'s Score is "+count);
 	}
@@ -43,7 +43,10 @@ public class Workshop2 {
 		Test t3 = new Test(stu3);
 		Test t4 = new Test(stu4);
 		Test t5 = new Test(stu5);
-		
 	}
+	/*static void grade(String[] sudent, String[] answer){
+	
+	
+	*/
 	
 }
