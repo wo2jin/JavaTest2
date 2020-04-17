@@ -8,5 +8,6 @@ public class VehicleDriver {
 		vm.displayVehicles(">> 재고 목록 <<");
 		//vm.sortByModelName();
 		vm.displayVehicles(">> 모델명으로 정렬된 재고 목록 <<");
+		vm.displaymaxSpeedsort();
 	}
 }

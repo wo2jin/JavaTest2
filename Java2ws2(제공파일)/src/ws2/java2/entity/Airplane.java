@@ -59,7 +59,8 @@ public class Airplane extends Vehicle{
 	public void displayInfo() {
 		System.out.println("-------------------------------------------");
 		System.out.println(" 모 델 명 : " + getModelName());
-		System.out.println(" 최고속도 : " + getMaxSpeed + "km/h");
-		System.out.println(" 최대정원 : " + getNumberLimit + "명");
+		System.out.println(" 최고속도 : " + getMaxSpeed() + "km/h");
+		System.out.println(" 최대정원 : " + getNumberLimit() + "명");
+		System.out.println(" 엔진개수 : " + this.numOfEngine + "명");
 	}
 }

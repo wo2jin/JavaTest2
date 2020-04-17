@@ -8,4 +8,8 @@
 <fullyQualifiedTypeName name="Ac"/>
 <fullyQualifiedTypeName name="com.test.MyClass4"/>
 <fullyQualifiedTypeName name="com.test2.Printable"/>
+<fullyQualifiedTypeName name="java.util.StringTokenizer"/>
+<fullyQualifiedTypeName name="java.util.Random"/>
+<fullyQualifiedTypeName name="java.lang.reflect.Array"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
 </qualifiedTypeNameHistroy>

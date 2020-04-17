@@ -1,6 +1,0 @@
-
-public class Oracle {
-	public void open() {
-		System.out.println("Oracle Open");
-	}
-}

@@ -10,10 +10,8 @@ public class Car{
 	
 	public Car() {}
 	
-	public Car(String modelName, int maxSpeed, int numberLimit, int mileage) {
-		this.modelName = modelName;
-		this.maxSpeed = maxSpeed;
-		this.numberLimit = numberLimit;
+	public Car(String modelName, int maxSpeed, int numberLimit,int mileage) {
+		super(modelName,maxSpeed,numberLimit);
 		this.mileage = mileage;
 	}
 

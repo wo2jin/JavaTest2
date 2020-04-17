@@ -1,6 +1,8 @@
 package ws2.java2.entity;
 
-public class Vehicle {
+
+
+public class Vehicle implements Comparable {
 	private String modelName;
 	private int maxSpeed;
 	private int numberLimit;
@@ -12,6 +14,18 @@ public class Vehicle {
 		this.modelName = modelName;
 		this.maxSpeed = maxSpeed;
 		this.numberLimit = numberLimit;
+	}
+	
+	@Override
+	public int compareTo(Object o) {
+		Vehicle s = (Vehicle)o;
+		if(this.maxSpeed == s.maxSpeed) {
+			return 0;
+		}else if(this.maxSpeed > s.maxSpeed) {
+			return -1;
+		}else {
+			return 1;
+		}
 	}
 	
 	public void displayInfo() {
@@ -41,6 +55,5 @@ public class Vehicle {
 	public void setNumberLimit(int numberLimit) {
 		this.numberLimit = numberLimit;
 	}
-	
 
 }

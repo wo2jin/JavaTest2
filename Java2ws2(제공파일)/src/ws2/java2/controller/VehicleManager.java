@@ -1,5 +1,7 @@
 package ws2.java2.controller;
 
+import java.util.Arrays;
+
 import ws2.java2.entity.*;
 
 public class VehicleManager {
@@ -21,7 +23,12 @@ public class VehicleManager {
 		
 		shipArr[0] = new Ship("크루즈2", 30, 400, 35000);
 		shipArr[1] = new Ship("노틸러스", 25, 150, 15000);
+		
+		
+		
 	}
+	
+	
 	
 	public void displayVehicles(String title) {
 		System.out.println(title);
@@ -42,6 +49,27 @@ public class VehicleManager {
 		}
 		
 		System.out.println();
+	}
+	public void displaymaxSpeedsort() {
+		
+		
+		System.out.println("=====속도순위=====");
+		Arrays.sort(airplaneArr);
+		Arrays.sort(shipArr);
+		Arrays.sort(carArr);
+		System.out.println("=====비행기=====");
+		
+		for(Airplane a : airplaneArr) {
+			System.out.println(a.getModelName()+":"+ a.getMaxSpeed());
+		}
+		System.out.println("=====자동차=====");
+		for(Car c : carArr) {
+			System.out.println(c.getModelName()+":"+ c.getMaxSpeed());
+		}
+		System.out.println("=====선박=====");
+		for(Ship s : shipArr) {
+			System.out.println(s.getModelName()+":"+ s.getMaxSpeed());
+		}
 	}
 }
 

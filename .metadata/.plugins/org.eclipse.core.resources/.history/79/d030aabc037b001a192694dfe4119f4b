@@ -1,9 +1,0 @@
-package zoo;
-public class Dog extends Animal{
-	public void Bark() {
-		System.out.println("dog Bark");
-	}
-	public void Breath() {
-		System.out.println("Dog Breath");
-	}
-}
