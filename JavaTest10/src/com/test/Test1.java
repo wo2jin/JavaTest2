@@ -13,10 +13,12 @@ public class Test1 {
 		List<String> l3 = new Vector<String>();
 		List<String> l4 = new Stack<String>();
 		l1.add("add");
+		l1.add("appleersdf");
+		l1.add("appledd");
 		l2.add("add");
 		System.out.println("===iterator===");
 		Iterator<String> ltr = l1.iterator(); 
-		while(ltr.hasNext()) { //iterator는 콜렉션의 특성을 가지고
+		while(ltr.hasNext()) { //iterator는 콜렉션의 특성을 가지고 있음(?)
 			System.out.println(ltr.next());
 		}
 		System.out.println("===list형태===");
@@ -25,6 +27,11 @@ public class Test1 {
 		}
 		System.out.println("===String s:l1====");
 		for(String s : l1) {
+			System.out.println(s);
+		}
+		System.out.println("-sort=");
+		Collections.sort(l1);
+		for(String s: l1) {
 			System.out.println(s);
 		}
 

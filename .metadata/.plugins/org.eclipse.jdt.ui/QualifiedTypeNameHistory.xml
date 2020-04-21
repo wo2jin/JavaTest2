@@ -11,5 +11,12 @@
 <fullyQualifiedTypeName name="java.util.StringTokenizer"/>
 <fullyQualifiedTypeName name="java.util.Random"/>
 <fullyQualifiedTypeName name="java.lang.reflect.Array"/>
+<fullyQualifiedTypeName name="java.awt.List"/>
+<fullyQualifiedTypeName name="java.util.LinkedList"/>
 <fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="com.test2.School.Student"/>
+<fullyQualifiedTypeName name="com.test2.Outer.Nested1"/>
+<fullyQualifiedTypeName name="com.test2.Outer.Nested2"/>
 </qualifiedTypeNameHistroy>
